@@ -1,0 +1,25 @@
+"""Um módulo é um único arquivo Python( .py) e Uma biblioteca (ou library) é um conjunto de módulos que oferecem funcionalidades específicas
+        modulos aprendidos:
+modulo18/analisador_texto_solucao.ipynb       
+tratamento = str.maketrans(vogais, numeros, remover)  nesse exemplo ele substitiuiu as vogais do alfabeto por numeros e no print com o .translate() ele substitiue oq o primeiro "" pelo segundo "" nesse exemplo o print seria 1bcd2fgh3jklmn4pqrst5 no exercicio modulo18/analisador_texto_solucao.ipynb foi usado para remover caracteres especiais de uma determinada string
+texto.translate(tratamento)       faz oq o maketrans manda, o maketrans fica dentro do ()
+
+
+
+modulo18/gerador_senhas_solucao.ipynb
+random.shuffle(senha)   embaralha oq tem dentro do () não da pra armazenar em uma variavel
+random.choice() escolhe alguma coisa da lista q vai ser passada dentro do ()
+random.choices(lista, k = 3) escolhe quantos quiser da lista q foi passada dentro do ()  o K serve pra dizer quantos quer q ele escolha
+escolhido_minusculo = random.choice(string.ascii_lowercase)
+escolhido_maiusculo = random.choice(string.ascii_uppercase)
+escolhido_numero = random.choice(string.digits)
+escolhido_especial = random.choice(string.punctuation)
+qualquercoisa = ''.join(lista) o .join junta uma lista em uma string e coloca oq estiver dentro das aspas ''
+o uso do ''.join é muito importante, ele é melhor para juntar listas do q concatenar com o + + , é mais eficiente
+
+muito importante  .extend    ele junta lista sem fazer uma lista dentro da outra igual ao .append
+mais legal ainda, da pra transformar de string pra lista usando o .extend
+quando tenta adcionar uma palavra na lista ele separa as letras
+
+
+"""

@@ -1,0 +1,14 @@
+função map ela é usada em listas.
+ela faz alguma coisa a cada elemento da lista exemplo:
+map(funcao, lista)
+nesse caso ele vai fazer a funcao a cada item da lista
+precisa colocar o list(map())
+se não colocar o list a resposta vem zipada
+
+
+lambda expressions é uma função que não existe
+uma função q vai ser usada só 1 vez.
+minha_funcao = lambda num: num * 2
+
+filter()
+é quase igual ao map só q a função precisa ser de True ou Flase e adciona tudo q tiver trie em uma lista
