@@ -1,8 +1,0 @@
-bibliotecas mais usadas
-PyPDF2  -> fazer tudo
-Tabula   -> extrair tabelas do pdf
-
-PyPDF2 geralmente importa com nome pyf
-arquivo_pdf = pyf.PdfReader('local/do/odf.pdf')    para le o arquivo e ssalvar navariavel
-arquivo_pdf.pages         cria uma lista das paginas
-
