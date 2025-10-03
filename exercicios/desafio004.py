@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+#print('n é um numero?' , n.isalnum )
+print(type(n))
+print ('é um numero?', n.isnumeric())
+print('é um decimal', n.isdecimal())
+print('é alph', n.isalpha())
