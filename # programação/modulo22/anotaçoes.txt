@@ -1,0 +1,85 @@
+importar         import panda as pd
+armazenar um arquivo csv        vendas_df = pd.read_csv(r'nome do arquivo se estiver tudo na mesma pasta que o prompt', sep = ';')
+printar ele                     print(vendas_df)
+pegar só alguma coluna            clientes = vendas_df['ID Clientes']
+mudar nome                         vendas_df = vendas_df.rename(columns={'NOME COMO ESTA': 'COMO VAI FICAR'})
+mostrar só algumas linhas 0: -1:
+fazer merge                 pega tudo que tem em uma tabela sobre aquela coisa e joga na outra
+
+
+counts() conta quantas vezes aparece AQUELE VALOR na coluna .value_counts()
+.ploy() criar grafico
+groupby()junta e soma tudo q se repete
+
+filtrar data frame original , pegar só de alguma loja pelo id ou algo assim só colocar dentro do [] oq vc quer igual ao if ex: loja_306 =  vendas_df[vendas_df['ID Loja'] == 306]
+.cloumns pra ve todas as colunas tem no data frame
+.info
+.set_index()  muda o index da tabela
+
+
+.loc encontrar alguma coisa 
+
+
+
+📦 Importação de dados
+Comando	O que faz
+pd.read_csv("arquivo.csv")	Lê um arquivo CSV e cria um DataFrame
+pd.read_excel("arquivo.xlsx")	Lê um arquivo do Excel
+df.to_csv("saida.csv")	Salva o DataFrame como CSV
+df.to_excel("saida.xlsx")	Salva o DataFrame como Excel
+
+🧱 Estrutura e visualização básica
+Método	O que faz
+df.head()	Mostra as 5 primeiras linhas
+df.tail()	Mostra as 5 últimas linhas
+df.shape	Mostra o número de linhas e colunas (ex: (100, 5))
+df.columns	Mostra os nomes das colunas
+df.info()	Informações básicas: tipos, colunas, valores nulos
+df.describe()	Estatísticas básicas (média, desvio, min, max, etc)
+
+🔍 Acessar dados
+Método	O que faz
+df['coluna']	Acessa uma coluna
+df[['col1', 'col2']]	Acessa várias colunas
+df.loc[linha]	Acessa por índice/label da linha
+df.iloc[linha]	Acessa por posição numérica da linha
+
+🔧 Manipulação de dados
+Método	O que faz
+df.rename(columns={'velho': 'novo'})	Renomeia colunas
+df.drop(columns=['coluna'])	Remove coluna
+df.set_index('coluna')	Define uma coluna como índice
+df.reset_index()	Reseta o índice padrão numérico
+df.sort_values('coluna')	Ordena os dados por uma coluna
+df.astype({'coluna': tipo})	Converte o tipo de uma coluna
+
+🎯 Filtragem e condições
+Método	O que faz
+df[df['coluna'] > 100]	Filtra valores maiores que 100
+df[df['coluna'] == 'valor']	Filtra onde a coluna é igual a algo
+df[(df['A'] > 10) & (df['B'] < 50)]	Filtros combinados com & e **
+df.query("coluna > 100")	Filtragem usando string (mais legível)
+
+📊 Agrupamento e agregações
+Método	O que faz
+df.groupby('coluna')	Agrupa os dados por valor de uma coluna
+df.groupby('coluna').sum()	Soma por grupo
+df.groupby('coluna').mean()	Média por grupo
+df['coluna'].value_counts()	Contagem de valores únicos
+
+📈 Gráficos
+Método	O que faz
+df.plot()	Gera um gráfico simples
+df['coluna'].plot(kind='bar')	Gera gráfico de barras
+df['coluna'].plot(kind='hist')	Histograma
+df.plot(kind='line')	Gráfico de linha padrão
+
+
+anotaçoes oq mais aparece
+
+importar a base de dados
+df.info()   ->pra ve oq tem linhas vazias o ti0po de variavel
+groupby()  agrupa por alguma coisa e faz alguma função no final como .sum() .count() etc
+df.loc[linhas, colunas]  (bota : se quiser todas)
+
+kaggle site pra treinar ( nunca vou usar)
