@@ -1,6 +1,17 @@
-Aqui estão todos os exercícios, anotações e testes que fiz ao estudar lógica de programação usando a linguagem Python.
-São exercícios do Curso em Vídeo propostos pelo professor Guanabara e também do curso de Python da #programação.
+Este repositório reúne meus exercícios, anotações e testes realizados durante meus estudos de lógica de programação e Python.
 
-Anotações: estão minhas anotações que preferi deixar registradas para que pudessem ser consultadas, se fosse necessário.
-Exercícios: estão todos os exercícios que fiz do Curso em Vídeo.
-Testes: são códigos confusos, mas que me ajudaram a testar, entender e tirar algumas dúvidas que apareciam enquanto assistia às aulas e que talvez pudessem ser consultados ao fazer os exercícios.
+Os exercícios foram desenvolvidos principalmente a partir dos cursos:
+
+- Curso de Python – Curso em Vídeo (Prof. Gustavo Guanabara)
+- Curso de Python – #Programação
+
+## Estrutura do repositório
+
+**Anotações**  
+Contém anotações feitas durante as aulas para consulta e revisão dos conteúdos.
+
+**Exercícios**  
+Exercícios propostos durante o curso para praticar lógica de programação e conceitos da linguagem Python.
+
+**Testes**  
+Pequenos códigos utilizados para experimentar ideias, tirar dúvidas e entender melhor alguns conceitos apresentados nas aulas.
