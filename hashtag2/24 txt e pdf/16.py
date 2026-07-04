@@ -1,0 +1,1 @@
+#aqui ja é de mais pra mim , acho q nunca vou usar isso na vida
